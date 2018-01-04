@@ -1,0 +1,118 @@
+/* global stylesheet for ePortfolio*/
+
+body {
+	font-family: 'Lato', sans-serif;
+	line-height: 20px;
+}
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	background-color: white;
+}
+
+#tabs{
+	float: left;
+	font-family: Hobo Std;
+	text-decoration: none;
+	margin: -150px 0 0 500px;
+	font-size: 25px;
+	
+}
+#tabs ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#tabs li {
+    float: left;
+}
+
+#tabs li a {
+    display: block;
+    color: purple;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+#header{
+	height: 150px;
+	width: 100%;
+	margin: -50 10 10 50px;
+	background-color: #adfffa;
+	padding: 10px;
+	float: left;
+	border-bottom: solid black 5px;
+	border-top: solid black 5px;
+}
+#quote {
+	width: 500px;
+	height: 175px;
+	background-color: #7accc8;
+	float: left;
+	font-family: Ravie;
+	color: white;
+	line-height: 50px;
+	font-size: 250%;
+	border: solid black 3px;
+	margin: 10px 350px 10px 350px;
+	text-align: center;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#welcome {
+	float: left;
+	color: #3b2c8d;
+	line-height: 20px;
+	font-family: Hobo Std;
+	margin-top: 20px;
+	margin-left: 300px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+
+
+#footer{
+	height: 150px;
+	width: 100%;
+	background-color: #adfffa;
+	padding: 5px;
+	clear: float;
+	border-bottom: solid black 5px;
+	border-top: solid black 5px;
+	float: left;
+	font-family: Hobo Std;
+	text-decoration: none;
+	font-size: 25px;
+
+}
+#footer ul{
+	position: absolute;
+	list-style-type: none;
+    margin: 25px 0px 0px 300px;
+    overflow: hidden;
+}
+
+
+
+
+#footer li{
+	display: inline-block;
+	color: purple;
+	width: 125px;
+	 float: left;
+}
+
+
+#footer a{
+	color: purple;
+	text-decoration: none;
+}
+
+#footer hover{
+	font-weight: bold;
+	color: #9159ed;
+}
